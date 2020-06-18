@@ -1,0 +1,271 @@
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 98%;
+        margin: 0 auto;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .phone {
+        margin-left: 120px;
+    }
+    .london {
+        right: 30px;
+        top: 100px;
+    }
+    #carousel {
+        margin: 0 auto 70px;
+        width: 90%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .text {
+        text-align: center;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .main-content {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        height: 100%;
+        padding: 30px 0 0 0;
+    }
+    .phone {
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 60px;
+        padding: 0;
+        width: 150px;
+        height: 300px;
+    }
+    .rio {
+        bottom: 0;
+        left: 59%;
+    }
+    .london {
+        margin: 0
+    }
+    .temp {
+        right: 20%;
+        top: 10%
+    }
+    .sunny {
+        left: 20%
+    }
+    .features__tools {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .usability,
+    .parallax,
+    .colors {
+        background-position: top center;
+        padding: 80px 0 0 0;
+        text-align: center;
+    }
+    #carousel {
+        margin: 0 auto 70px;
+        width: 100%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column wrap;
+    }
+    #carousel img {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer-right{
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    #carousel {
+        margin: 40px 0 130px 0;
+        position: static;
+        width: 900px
+    }
+    #next,
+    #prev {
+        display: none;
+    }
+    .temp {
+        right: 0;
+
+    }
+    .rio {
+        right: 0;
+    }
+    .menu {
+        justify-content: space-around;
+    }
+    .screenshots__img img,
+    .screenshots__img_2 img {
+        margin-left: 35%;
+    }
+    .screenshots__img,
+    creenshots__img_2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .degree,
+    .cloudy,
+    .cloudy2,
+    .degree2 {
+        display: block;
+        top: 55%;
+        left: 60%
+    }
+    .cloudy,
+    .cloudy2 {
+        left: 30%
+    }
+    .content,
+    .another-con {
+        text-align: center;
+        background: none;
+        margin: 0;
+    }
+    .content__text {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .content__circles {
+        display: flex;
+        justify-content: center;
+
+    }
+    .text {
+        display: flex;
+        align-items: center;
+        flex-flow: column wrap;
+        text-align: center;
+
+    }
+    .main-content {
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+}
+
+@media screen and (max-width: 891px) {
+    nav {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .menu-open {
+        margin: 20px 0;
+    }
+    .menu {
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .text {
+        display: flex;
+        align-items: center;
+        flex-flow: column wrap;
+        text-align: center;
+
+    }
+    .main-content {
+        margin: 0 auto;
+        display: flex;
+        flex-flow: column nowrap;
+
+    }
+    .text__title {
+        display: flex;
+    }
+    .cellphone {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .screenshots__img img,
+    .screenshots__img_2 img {
+        margin: 0 auto;
+    }
+    #carousel {
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header .socials {
+        display: none;
+    }
+    .temp {
+        right: 25%
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .text__btns {
+        flex-flow: column wrap;
+    }
+    .cta {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .text__title {
+        font-size: 2em;
+    }
+    .text__desc {
+        font-size: .8em;
+    }
+    .features__title,
+    .widgets__title,
+    .screenshots__title,
+    .reviews__title {
+        margin: 40px 0;
+        padding: 0;
+    }
+    .features__desc,
+    .widgets__desc,
+    .screenshots__desc,
+    .reviews__desc {
+        margin-bottom: 40px;
+    }
+    .screenshots__img img,
+    .screenshots__img_2 img {
+        width: 300px;
+        margin: 0 auto;
+        height: auto;
+        overflow-x: hidden;
+    }
+    #carousel{
+        height: 400px;
+    }
+    #carousel img {
+        width: 200px;
+    }
+    .widgets__desc {
+        margin-bottom: -10px
+    }
+    .screenshots__title {
+        margin-top: -50px
+    }
+    .slider__item {
+        box-shadow: 0px 0 30px rgba(0, 0, 0, 0.11)
+    }
+}
